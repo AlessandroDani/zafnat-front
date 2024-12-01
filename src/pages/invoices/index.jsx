@@ -17,7 +17,7 @@ export default function Invoices() {
         <div className="flex flex-row justify-between gap-2">
           <Input />
           <Filter options={optionsInvoices} />
-          <Csv />
+          <Csv type={"CSV"} />
         </div>
         <div className="pt-3">
           <DataTable columns={columnsInvoices} data={dataInvoices} />
